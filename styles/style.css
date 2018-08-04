@@ -1,5 +1,9 @@
+.transparent {
+  box-shadow: none;
+}
+
 .nav-link {
-  color: black;
+  color: white;
   font-size: 16px;
   margin: 0px 10px;
   opacity: 0.6;
@@ -9,12 +13,8 @@
   text-transform: uppercase;
 }
 
-/* nav ul a:hover {
-  background-color: transparent;
-} */
-
 .nav-link:hover {
-  color: black;
+  color: white;
   opacity: 1.0;
   transition: 0.6s;
   background-color: transparent;
